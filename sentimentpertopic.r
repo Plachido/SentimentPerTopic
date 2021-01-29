@@ -1,4 +1,4 @@
-df <- function(dtm, sentences, topic_number=5, words_pt=6, seed=0){
+spt <- function(dtm, sentences, topic_number=5, words_pt=6, seed=0){
   library(sentixR)
   sentiment_topic<-vector()
   words<-unlist(sentences)
