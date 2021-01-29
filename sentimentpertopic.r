@@ -23,6 +23,6 @@ df <- function(dtm, sentences, topic_number=5, words_pt=6, seed=0){
     topicwords[i]<-paste0(topic[[topic_column]], collapse=",")
     index=index+1
   }
-  df_sentiment<-data.frame("TOPIC"=topicwords,"Score"=c(totale,sentiment_topic))
+  df_sentiment<-data.frame("TOPIC"=topicwords,"Value"=c(totale,sentiment_topic))
   return(df_sentiment)
 }
