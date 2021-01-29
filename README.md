@@ -9,7 +9,7 @@ topic_number  the number of topics to search for.
 words_pt      number of words to consider relevant for each topic.
 seed          seed used for the inizialization of VEM algorithm (implemented in `lda`).
 ```
-function(dtm, sentences, topic_number=5, words_pt=6, seed=0) #seed is used to initialize LDA 
+spt(dtm, sentences, topic_number=5, words_pt=6, seed=0) #seed is used to initialize LDA 
 ```
 ## RETURN VALUE
 The functions returns a `data.frame` containing two columns, one containing the terms of each topic and one with the sentiment value.
