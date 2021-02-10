@@ -1,5 +1,5 @@
 # SentimentPerTopic
-Sentiment per topic calculation for italian text. Needs `tm`'s `DocumentTermMatrix`, a sentences vector generated with `syuzhet`'s `get_sentences`. The calculation is made with the [`sentixR`](https://github.com/valeriobasile/sentixR) package, while the topics are generated with `topicmodels`'s `lda` and `terms` functions. In order to take into account only some of the given sentences, `dplyr`'s `filter` function gets called.
+Sentiment per topic calculation for italian text. Needs `tm`'s `DocumentTermMatrix` and a sentences vector generated with `syuzhet`'s `get_sentences`. The calculation is made with the [`sentixR`](https://github.com/valeriobasile/sentixR) package, while the topics are generated with `topicmodels`'s `lda` and `terms` functions. In order to take into account only some of the given sentences, `dplyr`'s `filter` function gets called.
 
 ## USAGE
 ### Parameters:
