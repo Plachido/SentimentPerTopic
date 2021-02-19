@@ -3,8 +3,8 @@ Sentiment per topic calculation for italian text. Needs `tm`'s `DocumentTermMatr
 
 ## USAGE
 ### Parameters:
-* dtm
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;an object of class `DocumentTermMatrix`
+* dtm<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;an object of class `DocumentTermMatrix`.
 * sentences
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a character vector of sentences made with `get_sentences`.
 * topic_number
