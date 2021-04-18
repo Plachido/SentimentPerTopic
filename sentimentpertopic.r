@@ -1,5 +1,5 @@
 spt <- function(dtm, sentences, topic_number=5, words_pt=6, seed=0){
-  library(sentixR)
+  require(sentixR)
   sentiment_topic<-vector()
   words<-unlist(sentences)
   df <- data.frame(id = c(1:length(words)), text = words)
